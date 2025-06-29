@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Commerce Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="container">
+    <h1>My Store</h1>
+    <div class="cart">
+      <span id="cart-count">0</span>
+      🛒
+    </div>
+  </div>
+</header>
+
+<!-- Product Section -->
+<section class="products" id="product-list">
+  <!-- Products will be loaded dynamically with JavaScript -->
+</section>
+
+<!-- Cart Section -->
+<section class="cart-section">
+  <h2>Your Cart</h2>
+  <div id="cart-items"></div>
+  <div class="cart-total">
+    Total: $<span id="cart-total">0.00</span>
+  </div>
+  <button onclick="document.location = 'https://www.amazon.in/l/27943762031?me=A1EAWX6BZS5EJU&ref_=ssf_share'" id="checkout-btn">Checkout</button>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
